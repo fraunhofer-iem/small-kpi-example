@@ -6,6 +6,17 @@
     "avoidOverlap": true,
     "positions": {}
   },
-  "nodes": [],
-  "edges": []
+  "nodes": [
+    {
+      "id": "TechnicalDebt",
+      "name": "Technical Debt",
+      "description": ""
+    },
+    {
+      "id": "DevelopmentFocus",
+      "name": "Development Focus",
+      "description": ""
+    }
+  ],
+  "edges": [{ "source": "TechnicalDebt", "target": "DevelopmentFocus" }]
 }

@@ -14,7 +14,27 @@
       "id": "DevelopmentFocus",
       "name": "Development Focus",
       "description": ""
+    },
+    {
+      "id": "DeveloperSpread",
+      "name": "Developer Spread",
+      "description": ""
+    },
+    {
+      "id": "LabelPrioritiesCalculation",
+      "name": "Label Priority",
+      "description": ""
+    },
+    {
+      "id": "CouplingOfComponents",
+      "name": "Coupling of Components",
+      "description": ""
     }
   ],
-  "edges": [{ "source": "TechnicalDebt", "target": "DevelopmentFocus" }]
+  "edges": [
+    { "source": "TechnicalDebt", "target": "DevelopmentFocus" },
+    { "source": "DevelopmentFocus", "target": "DeveloperSpread" },
+    { "source": "DevelopmentFocus", "target": "LabelPrioritiesCalculation" },
+    { "source": "TechnicalDebt", "target": "CouplingOfComponents" }
+  ]
 }

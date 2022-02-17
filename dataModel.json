@@ -1,11 +1,7 @@
 {
   "readme": "",
   "title": "KPI-based Process Management",
-  "layout": {
-    "name": "preset",
-    "avoidOverlap": true,
-    "positions": {}
-  },
+  "layout": "cytoscape-dagre",
   "nodes": [
     {
       "id": "TechnicalDebt",

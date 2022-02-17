@@ -29,12 +29,53 @@
       "id": "CouplingOfComponents",
       "name": "Coupling of Components",
       "description": ""
+    },
+    {
+      "id": "TicketReaction",
+      "name": "Ticket Reaction",
+      "description": ""
+    },
+    {
+      "id": "FaultCorrectionCapability",
+      "name": "Fault Correction Capability",
+      "description": ""
+    },
+    {
+      "id": "FaultCorrectionEfficiency",
+      "name": "Fault Correction Efficiency",
+      "description": ""
+    },
+    {
+      "id": "FaultCorrectionRate",
+      "name": "Fault Correction Rate",
+      "description": ""
+    },
+    {
+      "id": "MeanFaultCorrectionCapability",
+      "name": "Mean Fault Correction Capability",
+      "description": ""
+    },
+    {
+      "id": "MeanFaultCorrectionEfficiency",
+      "name": "Mean Fault Correction Efficiency",
+      "description": ""
+    },
+    {
+      "id": "MeanFaultCorrectionRate",
+      "name": "Mean Fault Correction Rate",
+      "description": ""
     }
   ],
   "edges": [
     { "source": "TechnicalDebt", "target": "DevelopmentFocus" },
     { "source": "DevelopmentFocus", "target": "DeveloperSpread" },
     { "source": "DevelopmentFocus", "target": "LabelPrioritiesCalculation" },
-    { "source": "TechnicalDebt", "target": "CouplingOfComponents" }
+    { "source": "TechnicalDebt", "target": "CouplingOfComponents" },
+    { "source": "TicketReaction", "target": "FaultCorrectionCapability" },
+    { "source": "TicketReaction", "target": "FaultCorrectionEfficiency" },
+    { "source": "TicketReaction", "target": "FaultCorrectionRate" },
+    { "source": "TicketReaction", "target": "MeanFaultCorrectionCapability" },
+    { "source": "TicketReaction", "target": "MeanFaultCorrectionEfficiency" },
+    { "source": "TicketReaction", "target": "MeanFaultCorrectionRate" }
   ]
 }

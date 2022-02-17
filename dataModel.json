@@ -31,8 +31,8 @@
       "description": ""
     },
     {
-      "id": "TicketReaction",
-      "name": "Ticket Reaction",
+      "id": "BugHandling",
+      "name": "Bug Handling",
       "description": ""
     },
     {
@@ -71,11 +71,11 @@
     { "source": "DevelopmentFocus", "target": "DeveloperSpread" },
     { "source": "DevelopmentFocus", "target": "LabelPrioritiesCalculation" },
     { "source": "TechnicalDebt", "target": "CouplingOfComponents" },
-    { "source": "TicketReaction", "target": "FaultCorrectionCapability" },
-    { "source": "TicketReaction", "target": "FaultCorrectionEfficiency" },
-    { "source": "TicketReaction", "target": "FaultCorrectionRate" },
-    { "source": "TicketReaction", "target": "MeanFaultCorrectionCapability" },
-    { "source": "TicketReaction", "target": "MeanFaultCorrectionEfficiency" },
-    { "source": "TicketReaction", "target": "MeanFaultCorrectionRate" }
+    { "source": "BugHandling", "target": "FaultCorrectionCapability" },
+    { "source": "BugHandling", "target": "FaultCorrectionEfficiency" },
+    { "source": "BugHandling", "target": "FaultCorrectionRate" },
+    { "source": "BugHandling", "target": "MeanFaultCorrectionCapability" },
+    { "source": "BugHandling", "target": "MeanFaultCorrectionEfficiency" },
+    { "source": "BugHandling", "target": "MeanFaultCorrectionRate" }
   ]
 }

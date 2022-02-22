@@ -69,9 +69,16 @@
       "id": "MeanTimeToResolution",
       "name": "Mean Time to Resolution",
       "description": ""
+    },
+    {
+      "id": "MaturityIndex",
+      "name": "Maturity Index",
+      "description": ""
     }
   ],
   "edges": [
+    { "source": "MaturityIndex", "target": "BugHandling" },
+    { "source": "MaturityIndex", "target": "TechnicalDebt" },
     { "source": "TechnicalDebt", "target": "DevelopmentFocus" },
     { "source": "DevelopmentFocus", "target": "DeveloperSpread" },
     { "source": "DevelopmentFocus", "target": "LabelPrioritiesCalculation" },

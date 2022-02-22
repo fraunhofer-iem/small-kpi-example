@@ -71,9 +71,9 @@
     { "source": "DevelopmentFocus", "target": "DeveloperSpread" },
     { "source": "DevelopmentFocus", "target": "LabelPrioritiesCalculation" },
     { "source": "TechnicalDebt", "target": "CouplingOfComponents" },
-    { "source": "BugHandling", "target": "FaultCorrectionCapability" },
-    { "source": "BugHandling", "target": "FaultCorrectionEfficiency" },
-    { "source": "BugHandling", "target": "FaultCorrectionRate" },
+    { "source": "MeanFaultCorrectionCapability", "target": "FaultCorrectionCapability" },
+    { "source": "MeanFaultCorrectionEfficiency", "target": "FaultCorrectionEfficiency" },
+    { "source": "MeanFaultCorrectionRate", "target": "FaultCorrectionRate" },
     { "source": "BugHandling", "target": "MeanFaultCorrectionCapability" },
     { "source": "BugHandling", "target": "MeanFaultCorrectionEfficiency" },
     { "source": "BugHandling", "target": "MeanFaultCorrectionRate" }

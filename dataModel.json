@@ -21,11 +21,6 @@
       "description": ""
     },
     {
-      "id": "LabelPrioritiesCalculation",
-      "name": "Label Priority",
-      "description": ""
-    },
-    {
       "id": "CouplingOfComponents",
       "name": "Coupling of Components",
       "description": ""
@@ -106,7 +101,6 @@
     { "source": "CodeStructure", "target": "AvgChangesPerFile" },
     { "source": "CodeStructure", "target": "ChangesPerFile" },
     { "source": "DevelopmentFocus", "target": "DeveloperSpread" },
-    { "source": "DevelopmentFocus", "target": "LabelPrioritiesCalculation" },
     { "source": "TechnicalDebt", "target": "CouplingOfComponents" },
     { "source": "TechnicalDebt", "target": "OverallMeanTimeToResolution" },
     { "source": "TechnicalDebt", "target": "MeanTimeToResolution" },

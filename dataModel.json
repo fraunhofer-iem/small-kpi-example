@@ -64,6 +64,11 @@
       "id": "MeanFaultCorrectionRate",
       "name": "Mean Fault Correction Rate",
       "description": ""
+    },
+    {
+      "id": "MeanTimeToResolution",
+      "name": "Mean Time to Resolution",
+      "description": ""
     }
   ],
   "edges": [
@@ -71,6 +76,7 @@
     { "source": "DevelopmentFocus", "target": "DeveloperSpread" },
     { "source": "DevelopmentFocus", "target": "LabelPrioritiesCalculation" },
     { "source": "TechnicalDebt", "target": "CouplingOfComponents" },
+    { "source": "TechnicalDebt", "target": "MeanTimeToResolution" },
     { "source": "MeanFaultCorrectionCapability", "target": "FaultCorrectionCapability" },
     { "source": "MeanFaultCorrectionEfficiency", "target": "FaultCorrectionEfficiency" },
     { "source": "MeanFaultCorrectionRate", "target": "FaultCorrectionRate" },

@@ -79,12 +79,32 @@
       "id": "MaturityIndex",
       "name": "Maturity Index",
       "description": ""
+    },
+    {
+      "id": "AvgChangesPerFile",
+      "name": "Average Changes per File",
+      "description": ""
+    },
+    {
+      "id": "ChangesPerFile",
+      "name": "Changes per File",
+      "description": ""
+    },
+    {
+      "id": "CodeStructure",
+      "name": "Code Structure",
+      "description": ""
     }
   ],
   "edges": [
     { "source": "MaturityIndex", "target": "BugHandling" },
+    { "source": "MaturityIndex", "target": "CodeStructure" },
     { "source": "MaturityIndex", "target": "TechnicalDebt" },
     { "source": "TechnicalDebt", "target": "DevelopmentFocus" },
+    { "source": "CodeStructure", "target": "CouplingOfComponents" },
+    { "source": "CouplingOfComponents", "target": "ChangesPerFile" },
+    { "source": "CodeStructure", "target": "AvgChangesPerFile" },
+    { "source": "CodeStructure", "target": "ChangesPerFile" },
     { "source": "DevelopmentFocus", "target": "DeveloperSpread" },
     { "source": "DevelopmentFocus", "target": "LabelPrioritiesCalculation" },
     { "source": "TechnicalDebt", "target": "CouplingOfComponents" },

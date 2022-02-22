@@ -103,7 +103,7 @@
     { "source": "DevelopmentFocus", "target": "DeveloperSpread" },
     { "source": "TechnicalDebt", "target": "CouplingOfComponents" },
     { "source": "TechnicalDebt", "target": "OverallMeanTimeToResolution" },
-    { "source": "TechnicalDebt", "target": "MeanTimeToResolution" },
+    { "source": "OverallMeanTimeToResolution", "target": "MeanTimeToResolution" },
     { "source": "MeanFaultCorrectionCapability", "target": "FaultCorrectionCapability" },
     { "source": "MeanFaultCorrectionEfficiency", "target": "FaultCorrectionEfficiency" },
     { "source": "MeanFaultCorrectionRate", "target": "FaultCorrectionRate" },

@@ -122,6 +122,16 @@
           "id": "Release",
           "name": "Release",
           "description": ""
+        },
+        {
+          "id": "Repository",
+          "name": "Repository",
+          "description": ""
+        },
+        {
+          "id": "File",
+          "name": "File",
+          "description": ""
         }
       ]
     }
@@ -155,9 +165,16 @@
     { "source": "BugHandling", "target": "MeanFaultCorrectionEfficiency" },
     { "source": "BugHandling", "target": "MeanFaultCorrectionRate" },
     { "source": "Organisation", "target": "Developer" },
+    { "source": "Organisation", "target": "Repository" },
+    { "source": "Repository", "target": "Developer" },
+    { "source": "Repository", "target": "Issue" },
+    { "source": "Repository", "target": "Release" },
+    { "source": "Repository", "target": "PullRequest" },
+    { "source": "Repository", "target": "File" },
     { "source": "Issue", "target": "Label" },
     { "source": "PullRequest", "target": "Developer" },
     { "source": "PullRequest", "target": "Issue" },
+    { "source": "PullRequest", "target": "File" },
     { "source": "Release", "target": "PullRequest" }
   ]
 }

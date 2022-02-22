@@ -89,6 +89,41 @@
       "id": "CodeStructure",
       "name": "Code Structure",
       "description": ""
+    },
+    {
+      "id": "entities",
+      "children": [
+        {
+          "id": "Developer",
+          "name": "Developer",
+          "description": ""
+        },
+        {
+          "id": "Organisation",
+          "name": "Organisation",
+          "description": ""
+        },
+        {
+          "id": "Issue",
+          "name": "Issue",
+          "description": ""
+        },
+        {
+          "id": "Label",
+          "name": "Label",
+          "description": ""
+        },
+        {
+          "id": "PullRequest",
+          "name": "Pull Request",
+          "description": ""
+        },
+        {
+          "id": "Release",
+          "name": "Release",
+          "description": ""
+        }
+      ]
     }
   ],
   "edges": [
@@ -103,12 +138,26 @@
     { "source": "DevelopmentFocus", "target": "DeveloperSpread" },
     { "source": "TechnicalDebt", "target": "CouplingOfComponents" },
     { "source": "TechnicalDebt", "target": "OverallMeanTimeToResolution" },
-    { "source": "OverallMeanTimeToResolution", "target": "MeanTimeToResolution" },
-    { "source": "MeanFaultCorrectionCapability", "target": "FaultCorrectionCapability" },
-    { "source": "MeanFaultCorrectionEfficiency", "target": "FaultCorrectionEfficiency" },
+    {
+      "source": "OverallMeanTimeToResolution",
+      "target": "MeanTimeToResolution"
+    },
+    {
+      "source": "MeanFaultCorrectionCapability",
+      "target": "FaultCorrectionCapability"
+    },
+    {
+      "source": "MeanFaultCorrectionEfficiency",
+      "target": "FaultCorrectionEfficiency"
+    },
     { "source": "MeanFaultCorrectionRate", "target": "FaultCorrectionRate" },
     { "source": "BugHandling", "target": "MeanFaultCorrectionCapability" },
     { "source": "BugHandling", "target": "MeanFaultCorrectionEfficiency" },
-    { "source": "BugHandling", "target": "MeanFaultCorrectionRate" }
+    { "source": "BugHandling", "target": "MeanFaultCorrectionRate" },
+    { "source": "Organisation", "target": "Developer" },
+    { "source": "Issue", "target": "Label" },
+    { "source": "PullRequest", "target": "Developer" },
+    { "source": "PullRequest", "target": "Issue" },
+    { "source": "Release", "target": "PullRequest" }
   ]
 }

@@ -8,4 +8,4 @@ The overall mean time to resolution calculates the [mean time to resolution](Mea
 
 - [Issues](Issue.md): `label`, `created_at`, `closed_at`
 - [Time To Resolution](TimeToResolution.md)
-- [Mean Time To Resolution](meanTimeToResolution.md)
+- [Mean Time To Resolution](MeanTimeToResolution.md)

@@ -16,5 +16,5 @@ We calculate this information point for resolved issues labeled `bug` (or some o
 ## Related Data
 
 - [Issues](Issue.md): `label`, `state`, `created_at`, `closed_at`
-- [Mean Time To Resolution](meanTimeToResolution.md)
+- [Mean Time To Resolution](MeanTimeToResolution.md)
 - [Overall Mean Time To Resolution](OverallMeanTimeToResolution.md)

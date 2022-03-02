@@ -101,6 +101,26 @@
       "description": ""
     },
     {
+      "id": "NumberOfTicketsWithoutAssignee",
+      "name": "Number of Tickets without Assignee",
+      "description": ""
+    },
+    {
+      "id": "AvgTimeUntilAssignment",
+      "name": "Avg time until ticket got assigned",
+      "description": ""
+    },
+    {
+      "id": "AvgNumberOfAssigneesUntilClosed",
+      "name": "Avg number of assignees until ticket got closed",
+      "description": ""
+    },
+    {
+      "id": "NumberOfOpenTickets",
+      "name": "Number of open Tickets",
+      "description": ""
+    },
+    {
       "id": "entities",
       "children": [
         {
@@ -176,6 +196,10 @@
     { "source": "BugHandling", "target": "MeanFaultCorrectionCapability" },
     { "source": "BugHandling", "target": "MeanFaultCorrectionEfficiency" },
     { "source": "BugHandling", "target": "MeanFaultCorrectionRate" },
+    { "source": "BugHandling", "target": "NumberOfTicketsWithoutAssignee" },
+    { "source": "BugHandling", "target": "NumberOfOpenTickets" },
+    { "source": "BugHandling", "target": "AvgTimeUntilAssignment" },
+    { "source": "BugHandling", "target": "AvgNumberOfAssigneesUntilClosed" },
     { "source": "Organisation", "target": "Developer" },
     { "source": "Organisation", "target": "Repository" },
     { "source": "Repository", "target": "Developer" },

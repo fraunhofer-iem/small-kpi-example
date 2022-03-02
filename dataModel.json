@@ -91,6 +91,16 @@
       "description": ""
     },
     {
+      "id": "ReleaseCycle",
+      "name": "Release Cycle",
+      "description": ""
+    },
+    {
+      "id": "WorkInProgress",
+      "name": "Work in Progress",
+      "description": ""
+    },
+    {
       "id": "entities",
       "children": [
         {
@@ -139,6 +149,7 @@
   "edges": [
     { "source": "MaturityIndex", "target": "BugHandling" },
     { "source": "MaturityIndex", "target": "CodeStructure" },
+    { "source": "MaturityIndex", "target": "ReleaseCycle" },
     { "source": "MaturityIndex", "target": "TechnicalDebt" },
     { "source": "TechnicalDebt", "target": "DevelopmentFocus" },
     { "source": "CodeStructure", "target": "CouplingOfComponents" },
@@ -148,6 +159,7 @@
     { "source": "DevelopmentFocus", "target": "DeveloperSpread" },
     { "source": "TechnicalDebt", "target": "CouplingOfComponents" },
     { "source": "TechnicalDebt", "target": "OverallMeanTimeToResolution" },
+    { "source": "TechnicalDebt", "target": "WorkInProgress" },
     {
       "source": "OverallMeanTimeToResolution",
       "target": "MeanTimeToResolution"

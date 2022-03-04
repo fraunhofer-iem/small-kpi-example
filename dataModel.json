@@ -167,6 +167,11 @@
           "id": "Milestone",
           "name": "Milestone",
           "description": ""
+        },
+        {
+          "id": "IssueEvent",
+          "name": "Issue Event",
+          "description": ""
         }
       ]
     }
@@ -214,6 +219,7 @@
     { "source": "Repository", "target": "File" },
     { "source": "Repository", "target": "Milestone" },
     { "source": "Issue", "target": "Label" },
+    { "source": "Issue", "target": "IssueEvent" },
     { "source": "PullRequest", "target": "Developer" },
     { "source": "PullRequest", "target": "Issue" },
     { "source": "PullRequest", "target": "File" },

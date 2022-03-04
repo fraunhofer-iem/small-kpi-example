@@ -162,6 +162,11 @@
           "id": "File",
           "name": "File",
           "description": ""
+        },
+        {
+          "id": "Milestone",
+          "name": "Milestone",
+          "description": ""
         }
       ]
     }
@@ -207,6 +212,7 @@
     { "source": "Repository", "target": "Release" },
     { "source": "Repository", "target": "PullRequest" },
     { "source": "Repository", "target": "File" },
+    { "source": "Repository", "target": "Milestone" },
     { "source": "Issue", "target": "Label" },
     { "source": "PullRequest", "target": "Developer" },
     { "source": "PullRequest", "target": "Issue" },

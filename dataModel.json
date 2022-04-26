@@ -18,22 +18,22 @@
     {
       "id": "DevelopmentFocusIndex",
       "name": "Development Focus Index",
-      "description": "0..1 \n high = TBD; \n low = TBD"
+      "description": ""
     },
     {
       "id": "AvgDeveloperSpread",
       "name": "Average of Developer Spread",
-      "description": "Distinguish into multiple KPIs for: \n Issues, Commits, Code Reviews/Pull Requests"
+      "description": ""
     },
     {
       "id": "StdDevDeveloperSpread",
       "name": "StdDev of Developer Spread",
-      "description": "Distinguish into multiple KPIs for: \n Issues, Commits, Code Reviews/Pull Requests"
+      "description": ""
     },
     {
       "id": "IndividualDeveloperSpread",
       "name": "Individual Developer Spread",
-      "description": "Distinguish into multiple KPIs for: \n Issues, Commits, Code Reviews/Pull Requests"
+      "description": ""
     },
     {
       "id": "RepositoriesWithDeveloperActivity",
@@ -48,7 +48,7 @@
     {
       "id": "CouplingIndex",
       "name": "Coupling-Index",
-      "description": "0..1 \n high = components are highly coupled; \n low = components are loosely coupled"
+      "description": ""
     },
     {
       "id": "AvgCoupling",
@@ -93,7 +93,7 @@
     {
       "id": "ActiveCode",
       "name": "Active Code",
-      "description": "0..1 \n high = all components are under development; \n low = only few components are under development"
+      "description": ""
     },
     {
       "id": "OverallMTTRIndex",
@@ -106,24 +106,24 @@
       "description": ""
     },
     {
-      "id": "AvgMTTR",
-      "name": "Average of Mean Time to Resolution",
+      "id": "AvgOverallMTTR",
+      "name": "Average of Overall Mean Time to Resolution",
       "description": ""
     },
     {
-      "id": "StdDevMTTR",
-      "name": "StdDev of Mean Time to Resolution",
+      "id": "StdDevOverallMTTR",
+      "name": "StdDev of Overall Mean Time to Resolution",
       "description": ""
     },
     {
       "id": "OverallMTTR",
       "name": "Overall Mean Time to Resolution",
-      "description": "Combines times of the individual kinds"
+      "description": ""
     },
     {
       "id": "MTTR",
       "name": "Mean Time to Resolution",
-      "description": "Distinguish into multiple KPIs for ticket kinds"
+      "description": ""
     },
     {
       "id": "TTR",
@@ -138,7 +138,7 @@
     {
       "id": "ResolutionRate",
       "name": "ResolutionRate",
-      "description": "Distinguish into multiple KPIs for ticket kinds"
+      "description": ""
     },
     {
       "id": "ResolutionCapability",
@@ -148,17 +148,17 @@
     {
       "id": "ResolutionEfficiency",
       "name": "Resolution Efficiency",
-      "description": "Distinguish into multiple KPIs for ticket kinds"
+      "description": ""
     },
     {
       "id": "PullRequestSpread",
       "name": "Pull Request Spread",
-      "description": "0..1 \n high = pull requests are wiedly spread among the release cycle; \n low = pull requests are clustered on a few days"
+      "description": ""
     },
     {
       "id": "WIP",
       "name": "Open Ticket Rate/Work in Progress",
-      "description": "Tickets that are accepted for a release cycle, but aren't finished"
+      "description": ""
     },
     {
       "id": "UnassignedTicketRate",

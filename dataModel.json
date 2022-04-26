@@ -41,77 +41,77 @@
       "description": ""
     },
     {
-      "id:": "OverallCouplingIndex",
+      "id": "OverallCouplingIndex",
       "name": "Overall Coupling-Index",
       "description": ""
     },
     {
-      "id:": "CouplingIndex",
+      "id": "CouplingIndex",
       "name": "Coupling-Index",
       "description": "0..1 \n high = components are highly coupled; \n low = components are loosely coupled"
     },
     {
-      "id:": "AvgCoupling",
+      "id": "AvgCoupling",
       "name": "Average of Coupling-Index",
       "description": ""
     },
     {
-      "id:": "StdDevCoupling",
+      "id": "StdDevCoupling",
       "name": "StdDev of Coupling-Index",
       "description": ""
     },
     {
-      "id:": "AvgFilesChangedTogether",
+      "id": "AvgFilesChangedTogether",
       "name": "Average of Files changed together",
       "description": ""
     },
     {
-      "id:": "StdDevFilesChangedTogether",
+      "id": "StdDevFilesChangedTogether",
       "name": "StdDev of Files changed together",
       "description": ""
     },
     {
-      "id:": "AddFilesChanged",
+      "id": "AddFilesChanged",
       "name": "Additional Files Changed",
       "description": ""
     },
     {
-      "id:": "ChangesPerFile",
+      "id": "ChangesPerFile",
       "name": "Changes per File",
       "description": ""
     },
     {
-      "id:": "AvgChangesPerFile",
+      "id": "AvgChangesPerFile",
       "name": "Average Changes per File",
       "description": ""
     },
     {
-      "id:": "StdDevChangesPerFile",
+      "id": "StdDevChangesPerFile",
       "name": "StdDev of Changes per File",
       "description": ""
     },
     {
-      "id:": "ActiveCode",
+      "id": "ActiveCode",
       "name": "Active Code",
       "description": "0..1 \n high = all components are under development; \n low = only few components are under development"
     },
     {
-      "id:": "OverallMTTRIndex",
+      "id": "OverallMTTRIndex",
       "name": "Overall MTTR-Index",
       "description": ""
     },
     {
-      "id:": "OverallMTTR",
+      "id": "OverallMTTR",
       "name": "Overall Mean Time to Resolution",
       "description": ""
     },
     {
-      "id:": "AvgMTTR",
+      "id": "AvgMTTR",
       "name": "Average of Mean Time to Resolution",
       "description": ""
     },
     {
-      "id:": "StdDevMTTR",
+      "id": "StdDevMTTR",
       "name": "StdDev of Mean Time to Resolution",
       "description": ""
     },

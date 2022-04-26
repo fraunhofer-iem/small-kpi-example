@@ -182,9 +182,9 @@
     }
   ],
   "edges": [
-    { "source": "OverallCouplingIndex", "target": "MaturityIndex" },
-    { "source": "OverallMTTRIndex", "target": "MaturityIndex" },
-    { "source": "DevelopmentFocusIndex", "target": "MaturityIndex" },
+    { "source": "MaturityIndex", "target": "OverallCouplingIndex" },
+    { "source": "MaturityIndex", "target": "OverallMTTRIndex" },
+    { "source": "MaturityIndex", "target": "DevelopmentFocusIndex" },
     { "source": "OverallCouplingIndex", "target": "AvgCoupling" },
     { "source": "OverallCouplingIndex", "target": "StdDevCoupling" },
     { "source": "AvgCoupling", "target": "StdDevCoupling" },

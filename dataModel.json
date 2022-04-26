@@ -18,16 +18,26 @@
     {
       "id": "DevelopmentFocusIndex",
       "name": "Development Focus Index",
-      "description": ""
+      "description": "0..1 \n high = TBD; \n low = TBD"
     },
     {
-      "id": "AvgDevelopmentFocusIndex",
+      "id": "AvgDeveloperSpread",
       "name": "Average of Developer Spread",
-      "description": ""
+      "description": "Distinguish into multiple KPIs for: \n Issues, Commits, Code Reviews/Pull Requests"
     },
     {
-      "id": "StdDevDevelopmentFocusIndex",
+      "id": "StdDevDeveloperSpread",
       "name": "StdDev of Developer Spread",
+      "description": "Distinguish into multiple KPIs for: \n Issues, Commits, Code Reviews/Pull Requests"
+    },
+    {
+      "id": "IndividualDeveloperSpread",
+      "name": "Individual Developer Spread",
+      "description": "Distinguish into multiple KPIs for: \n Issues, Commits, Code Reviews/Pull Requests"
+    },
+    {
+      "id": "RepositoriesWithDeveloperActivity",
+      "name": "Repositories with Developer Activity",
       "description": ""
     },
     {
@@ -38,7 +48,7 @@
     {
       "id:": "CouplingIndex",
       "name": "Coupling-Index",
-      "description": ""
+      "description": "0..1 \n high = components are highly coupled; \n low = components are loosely coupled"
     },
     {
       "id:": "AvgCoupling",
@@ -83,7 +93,7 @@
     {
       "id:": "ActiveCode",
       "name": "Active Code",
-      "description": ""
+      "description": "0..1 \n high = all components are under development; \n low = only few components are under development"
     },
     {
       "id:": "OverallMTTRIndex",
@@ -108,12 +118,12 @@
     {
       "id": "OverallMTTR",
       "name": "Overall Mean Time to Resolution",
-      "description": ""
+      "description": "Combines times of the individual kinds"
     },
     {
       "id": "MTTR",
       "name": "Mean Time to Resolution",
-      "description": ""
+      "description": "Distinguish into multiple KPIs for ticket kinds"
     },
     {
       "id": "TTR",
@@ -128,7 +138,7 @@
     {
       "id": "ResolutionRate",
       "name": "ResolutionRate",
-      "description": ""
+      "description": "Distinguish into multiple KPIs for ticket kinds"
     },
     {
       "id": "ResolutionCapability",
@@ -138,17 +148,17 @@
     {
       "id": "ResolutionEfficiency",
       "name": "Resolution Efficiency",
-      "description": ""
+      "description": "Distinguish into multiple KPIs for ticket kinds"
     },
     {
       "id": "PullRequestSpread",
       "name": "Pull Request Spread",
-      "description": ""
+      "description": "0..1 \n high = pull requests are wiedly spread among the release cycle; \n low = pull requests are clustered on a few days"
     },
     {
       "id": "WIP",
       "name": "Open Ticket Rate/Work in Progress",
-      "description": ""
+      "description": "Tickets that are accepted for a release cycle, but aren't finished"
     },
     {
       "id": "UnassignedTicketRate",
@@ -213,6 +223,29 @@
     { "source": "AvgChangesPerFile", "target": "ActiveCode" },
     { "source": "StdDevChangesPerFile", "target": "ActiveCode" },
     { "source": "MTTR", "target": "OverallMTTR" },
-    { "source": "TTR", "target": "MTTR" }
+    { "source": "TTR", "target": "MTTR" },
+    { "source": "Issues", "target": "TTR" },
+    { "source": "ResolutionRate", "target": "Issues" },
+    { "source": "ResolutionCapability", "target": "Issues" },
+    { "source": "ResolutionEfficiency", "target": "Issues" },
+    { "source": "PullRequestSpread", "target": "Issues" },
+    { "source": "WIP", "target": "Issues" },
+    { "source": "UnassignedTicketRate", "target": "Issues" },
+    { "source": "AssignmentTime", "target": "Issues" },
+    { "source": "AvgAssignmentTime", "target": "AssignmentTime" },
+    { "source": "AssigneesCount", "target": "Issues" },
+    { "source": "AvgAssigneesCount", "target": "AssigneesCount" },
+    { "source": "AvgDeveloperSpread", "target": "DevelopmentFocusIndex" },
+    { "source": "AvgDeveloperSpread", "target": "StdDevDeveloperSpread" },
+    { "source": "StdDevDeveloperSpread", "target": "DevelopmentFocusIndex" },
+    { "source": "IndividualDeveloperSpread", "target": "AvgDeveloperSpread" },
+    {
+      "source": "IndividualDeveloperSpread",
+      "target": "StdDevDeveloperSpread"
+    },
+    {
+      "source": "RepositoriesWithDeveloperActivity",
+      "target": "IndividualDeveloperSpread"
+    }
   ]
 }

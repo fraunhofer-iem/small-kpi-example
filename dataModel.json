@@ -6,223 +6,213 @@
   },
   "nodes": [
     {
-      "id": "TechnicalDebt",
-      "name": "Technical Debt",
+      "id": "TechnicalDebtIndex",
+      "name": "Technical Debt Index",
       "description": ""
     },
     {
-      "id": "DevelopmentFocus",
-      "name": "Development Focus",
+      "id": "AvgTechnicalDebtIndex",
+      "name": "Average Technical Debt Index",
       "description": ""
     },
     {
-      "id": "DeveloperSpread",
-      "name": "Developer Spread",
+      "id": "DevelopmentFocusIndex",
+      "name": "Development Focus Index",
       "description": ""
     },
     {
-      "id": "CouplingOfComponents",
-      "name": "Coupling of Components",
+      "id": "AvgDevelopmentFocusIndex",
+      "name": "Average of Developer Spread",
       "description": ""
     },
     {
-      "id": "BugHandling",
-      "name": "Bug Handling",
+      "id": "StdDevDevelopmentFocusIndex",
+      "name": "StdDev of Developer Spread",
       "description": ""
     },
     {
-      "id": "FaultCorrectionCapability",
-      "name": "Fault Correction Capability",
+      "id:": "OverallCouplingIndex",
+      "name": "Overall Coupling-Index",
       "description": ""
     },
     {
-      "id": "FaultCorrectionEfficiency",
-      "name": "Fault Correction Efficiency",
+      "id:": "CouplingIndex",
+      "name": "Coupling-Index",
       "description": ""
     },
     {
-      "id": "FaultCorrectionRate",
-      "name": "Fault Correction Rate",
+      "id:": "AvgCoupling",
+      "name": "Average of Coupling-Index",
       "description": ""
     },
     {
-      "id": "MeanFaultCorrectionCapability",
-      "name": "Mean Fault Correction Capability",
+      "id:": "StdDevCoupling",
+      "name": "StdDev of Coupling-Index",
       "description": ""
     },
     {
-      "id": "MeanFaultCorrectionEfficiency",
-      "name": "Mean Fault Correction Efficiency",
+      "id:": "AvgFilesChangedTogether",
+      "name": "Average of Files changed together",
       "description": ""
     },
     {
-      "id": "MeanFaultCorrectionRate",
-      "name": "Mean Fault Correction Rate",
+      "id:": "StdDevFilesChangedTogether",
+      "name": "StdDev of Files changed together",
       "description": ""
     },
     {
-      "id": "MeanTimeToResolution",
-      "name": "Mean Time to Resolution",
+      "id:": "AddFilesChanged",
+      "name": "Additional Files Changed",
       "description": ""
     },
     {
-      "id": "OverallMeanTimeToResolution",
-      "name": "Overall Mean Time to Resolution",
-      "description": ""
-    },
-    {
-      "id": "MaturityIndex",
-      "name": "Maturity Index",
-      "description": ""
-    },
-    {
-      "id": "AvgChangesPerFile",
-      "name": "Average Changes per File",
-      "description": ""
-    },
-    {
-      "id": "ChangesPerFile",
+      "id:": "ChangesPerFile",
       "name": "Changes per File",
       "description": ""
     },
     {
-      "id": "CodeStructure",
-      "name": "Code Structure",
+      "id:": "AvgChangesPerFile",
+      "name": "Average Changes per File",
       "description": ""
     },
     {
-      "id": "ReleaseCycle",
-      "name": "Release Cycle",
+      "id:": "StdDevChangesPerFile",
+      "name": "StdDev of Changes per File",
       "description": ""
     },
     {
-      "id": "WorkInProgress",
-      "name": "Work in Progress",
+      "id:": "ActiveCode",
+      "name": "Active Code",
       "description": ""
     },
     {
-      "id": "NumberOfTicketsWithoutAssignee",
-      "name": "Number of Tickets without Assignee",
+      "id:": "OverallMTTRIndex",
+      "name": "Overall MTTR-Index",
       "description": ""
     },
     {
-      "id": "AvgTimeUntilAssignment",
-      "name": "Avg time until ticket got assigned",
+      "id:": "OverallMTTR",
+      "name": "Overall Mean Time to Resolution",
       "description": ""
     },
     {
-      "id": "AvgNumberOfAssigneesUntilClosed",
-      "name": "Avg number of assignees until ticket got closed",
+      "id:": "AvgMTTR",
+      "name": "Average of Mean Time to Resolution",
       "description": ""
     },
     {
-      "id": "NumberOfOpenTickets",
-      "name": "Number of open Tickets",
+      "id:": "StdDevMTTR",
+      "name": "StdDev of Mean Time to Resolution",
       "description": ""
     },
     {
-      "id": "entities",
-      "children": [
-        {
-          "id": "Developer",
-          "name": "Developer",
-          "description": ""
-        },
-        {
-          "id": "Organisation",
-          "name": "Organisation",
-          "description": ""
-        },
-        {
-          "id": "Issue",
-          "name": "Issue",
-          "description": ""
-        },
-        {
-          "id": "Label",
-          "name": "Label",
-          "description": ""
-        },
-        {
-          "id": "PullRequest",
-          "name": "Pull Request",
-          "description": ""
-        },
-        {
-          "id": "Release",
-          "name": "Release",
-          "description": ""
-        },
-        {
-          "id": "Repository",
-          "name": "Repository",
-          "description": ""
-        },
-        {
-          "id": "File",
-          "name": "File",
-          "description": ""
-        },
-        {
-          "id": "Milestone",
-          "name": "Milestone",
-          "description": ""
-        },
-        {
-          "id": "IssueEvent",
-          "name": "Issue Event",
-          "description": ""
-        }
-      ]
+      "id": "OverallMTTR",
+      "name": "Overall Mean Time to Resolution",
+      "description": ""
+    },
+    {
+      "id": "MTTR",
+      "name": "Mean Time to Resolution",
+      "description": ""
+    },
+    {
+      "id": "TTR",
+      "name": "Time to Resolution",
+      "description": ""
+    },
+    {
+      "id": "Issues",
+      "name": "Issues/Tickets",
+      "description": ""
+    },
+    {
+      "id": "ResolutionRate",
+      "name": "ResolutionRate",
+      "description": ""
+    },
+    {
+      "id": "ResolutionCapability",
+      "name": "Resolution Capability",
+      "description": ""
+    },
+    {
+      "id": "ResolutionEfficiency",
+      "name": "Resolution Efficiency",
+      "description": ""
+    },
+    {
+      "id": "PullRequestSpread",
+      "name": "Pull Request Spread",
+      "description": ""
+    },
+    {
+      "id": "WIP",
+      "name": "Open Ticket Rate/Work in Progress",
+      "description": ""
+    },
+    {
+      "id": "UnassignedTicketRate",
+      "name": "Unassigned Ticket Rate",
+      "description": ""
+    },
+    {
+      "id": "AssignmentTime",
+      "name": "Assignment Time",
+      "description": ""
+    },
+    {
+      "id": "AvgAssignmentTime",
+      "name": "Average Assignment Time",
+      "description": ""
+    },
+    {
+      "id": "AssigneesCount",
+      "name": "Assignees Count (until close)",
+      "description": ""
+    },
+    {
+      "id": "AvgAssigneesCount",
+      "name": "Average Assignees Count (until close)",
+      "description": ""
+    },
+    {
+      "id": "MaturityIndex",
+      "name": "MI/HI",
+      "description": ""
     }
   ],
   "edges": [
-    { "source": "MaturityIndex", "target": "BugHandling" },
-    { "source": "MaturityIndex", "target": "CodeStructure" },
-    { "source": "MaturityIndex", "target": "ReleaseCycle" },
-    { "source": "MaturityIndex", "target": "TechnicalDebt" },
-    { "source": "TechnicalDebt", "target": "DevelopmentFocus" },
-    { "source": "CodeStructure", "target": "CouplingOfComponents" },
-    { "source": "CouplingOfComponents", "target": "ChangesPerFile" },
-    { "source": "CodeStructure", "target": "AvgChangesPerFile" },
-    { "source": "CodeStructure", "target": "ChangesPerFile" },
-    { "source": "DevelopmentFocus", "target": "DeveloperSpread" },
-    { "source": "TechnicalDebt", "target": "CouplingOfComponents" },
-    { "source": "TechnicalDebt", "target": "OverallMeanTimeToResolution" },
-    { "source": "TechnicalDebt", "target": "WorkInProgress" },
+    { "source": "OverallCouplingIndex", "target": "MaturityIndex" },
+    { "source": "OverallMTTRIndex", "target": "MaturityIndex" },
+    { "source": "DevelopmentFocusIndex", "target": "MaturityIndex" },
+    { "source": "OverallCouplingIndex", "target": "AvgCoupling" },
+    { "source": "OverallCouplingIndex", "target": "StdDevCoupling" },
+    { "source": "AvgCoupling", "target": "StdDevCoupling" },
+    { "source": "OverallMTTRIndex", "target": "AvgOverallMTTR" },
+    { "source": "OverallMTTRIndex", "target": "StdDevOverallMTTR" },
+    { "source": "AvgOverallMTTR", "target": "StdDevOverallMTTR" },
+    { "source": "AvgCoupling", "target": "CouplingIndex" },
+    { "source": "StdDevCoupling", "target": "CouplingIndex" },
+    { "source": "AvgOverallMTTR", "target": "OverallMTTR" },
+    { "source": "StdDevOverallMTTR", "target": "OverallMTTR" },
+    { "source": "CouplingIndex", "target": "AvgFilesChangedTogether" },
+    { "source": "CouplingIndex", "target": "StdDevFilesChangedTogether" },
+    { "source": "CouplingIndex", "target": "TechnicalDebtIndex" },
+    { "source": "OverallMTTR", "target": "TechnicalDebtIndex" },
+    { "source": "TechnicalDebtIndex", "target": "AvgTechnicalDebtIndex" },
+    { "source": "AvgFilesChangedTogether", "target": "AddFilesChanged" },
     {
-      "source": "OverallMeanTimeToResolution",
-      "target": "MeanTimeToResolution"
+      "source": "AvgFilesChangedTogether",
+      "target": "StdDevFilesChangedTogether"
     },
-    {
-      "source": "MeanFaultCorrectionCapability",
-      "target": "FaultCorrectionCapability"
-    },
-    {
-      "source": "MeanFaultCorrectionEfficiency",
-      "target": "FaultCorrectionEfficiency"
-    },
-    { "source": "MeanFaultCorrectionRate", "target": "FaultCorrectionRate" },
-    { "source": "BugHandling", "target": "MeanFaultCorrectionCapability" },
-    { "source": "BugHandling", "target": "MeanFaultCorrectionEfficiency" },
-    { "source": "BugHandling", "target": "MeanFaultCorrectionRate" },
-    { "source": "BugHandling", "target": "NumberOfTicketsWithoutAssignee" },
-    { "source": "BugHandling", "target": "NumberOfOpenTickets" },
-    { "source": "BugHandling", "target": "AvgTimeUntilAssignment" },
-    { "source": "BugHandling", "target": "AvgNumberOfAssigneesUntilClosed" },
-    { "source": "Organisation", "target": "Developer" },
-    { "source": "Organisation", "target": "Repository" },
-    { "source": "Repository", "target": "Developer" },
-    { "source": "Repository", "target": "Issue" },
-    { "source": "Repository", "target": "Release" },
-    { "source": "Repository", "target": "PullRequest" },
-    { "source": "Repository", "target": "File" },
-    { "source": "Repository", "target": "Milestone" },
-    { "source": "Issue", "target": "Label" },
-    { "source": "Issue", "target": "IssueEvent" },
-    { "source": "PullRequest", "target": "Developer" },
-    { "source": "PullRequest", "target": "Issue" },
-    { "source": "PullRequest", "target": "File" },
-    { "source": "Release", "target": "PullRequest" }
+    { "source": "StdDevFilesChangedTogether", "target": "AddFilesChanged" },
+    { "source": "AddFilesChanged", "target": "ChangesPerFile" },
+    { "source": "ChangesPerFile", "target": "AvgChangesPerFile" },
+    { "source": "ChangesPerFile", "target": "StdDevChangesPerFile" },
+    { "source": "AvgChangesPerFile", "target": "StdDevChangesPerFile" },
+    { "source": "AvgChangesPerFile", "target": "ActiveCode" },
+    { "source": "StdDevChangesPerFile", "target": "ActiveCode" },
+    { "source": "MTTR", "target": "OverallMTTR" },
+    { "source": "TTR", "target": "MTTR" }
   ]
 }

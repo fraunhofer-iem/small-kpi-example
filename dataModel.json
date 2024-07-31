@@ -1,8 +1,10 @@
 {
   "readme": "",
   "title": "Anwendungsbeispiel Produktarchitektur",
+  "center": "Produkt",
   "layout": {
-    "name": "dagre"
+    "name": "dagre",
+    "avoidOverlap": true
   },
   "nodes": [
     {

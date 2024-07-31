@@ -6,246 +6,198 @@
   },
   "nodes": [
     {
-      "id": "TechnicalDebtIndex",
-      "name": "Technical Debt Index",
+      "id": "Produkt",
+      "name": "Produkt",
       "description": ""
     },
     {
-      "id": "AvgTechnicalDebtIndex",
-      "name": "Average Technical Debt Index",
+      "id": "K_1",
+      "children": [
+        {
+          "id": "BG_A",
+          "name": "Baugruppe BG_A",
+          "description": ""
+        }
+      ]
+    }    ,
+    {
+      "id": "BG_B",
+      "name": "Baugruppe BG_B",
       "description": ""
     },
     {
-      "id": "DevelopmentFocusIndex",
-      "name": "Development Focus Index",
+      "id": "BG_C",
+      "name": "Baugruppe BG_C",
       "description": ""
     },
     {
-      "id": "AvgDeveloperSpread",
-      "name": "Average of Developer Spread",
+      "id": "BT_A_1",
+      "name": "Bauteil BT_A_1",
       "description": ""
     },
     {
-      "id": "StdDevDeveloperSpread",
-      "name": "StdDev of Developer Spread",
+      "id": "BT_A_2",
+      "name": "Bauteil BT_A_2",
       "description": ""
     },
     {
-      "id": "IndividualDeveloperSpread",
-      "name": "Individual Developer Spread",
+      "id": "K_2",
+      "children": [
+        {
+          "id": "BT_B_1",
+          "name": "Bauteil BT_B_1",
+          "description": ""
+        },
+        {
+          "id": "BT_C_1",
+          "name": "Bauteil BT_C_1",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "K_3",
+      "children": [
+        {
+          "id": "BT_C_2",
+          "name": "Bauteil BT_C_2",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "Gesamtfunktion",
+      "name": "Gesamtfunktion",
       "description": ""
     },
     {
-      "id": "RepositoriesWithDeveloperActivity",
-      "name": "Repositories with Developer Activity",
+      "id": "TF_A",
+      "name": "Teilfunktion TF_A",
       "description": ""
     },
     {
-      "id": "OverallCouplingIndex",
-      "name": "Overall Coupling-Index",
+      "id": "TF_B",
+      "name": "Teilfunktion TF_B",
       "description": ""
     },
     {
-      "id": "CouplingIndex",
-      "name": "Coupling-Index",
+      "id": "TF_A_1",
+      "name": "Untergeordnete Teilfunktion TF_A_1",
       "description": ""
     },
     {
-      "id": "AvgCoupling",
-      "name": "Average of Coupling-Index",
+      "id": "TF_A_2",
+      "name": "Untergeordnete Teilfunktion TF_A_2",
       "description": ""
     },
     {
-      "id": "StdDevCoupling",
-      "name": "StdDev of Coupling-Index",
+      "id": "TF_A_3",
+      "name": "Untergeordnete Teilfunktion TF_A_3",
       "description": ""
     },
     {
-      "id": "AvgFilesChangedTogether",
-      "name": "Average of Files changed together",
+      "id": "TF_B_1",
+      "name": "Untergeordnete Teilfunktion TF_B_1",
       "description": ""
     },
     {
-      "id": "StdDevFilesChangedTogether",
-      "name": "StdDev of Files changed together",
-      "description": ""
-    },
-    {
-      "id": "AddFilesChanged",
-      "name": "Additional Files Changed",
-      "description": ""
-    },
-    {
-      "id": "ChangesPerFile",
-      "name": "Changes per File",
-      "description": ""
-    },
-    {
-      "id": "AvgChangesPerFile",
-      "name": "Average Changes per File",
-      "description": ""
-    },
-    {
-      "id": "StdDevChangesPerFile",
-      "name": "StdDev of Changes per File",
-      "description": ""
-    },
-    {
-      "id": "ActiveCode",
-      "name": "Active Code",
-      "description": ""
-    },
-    {
-      "id": "OverallMTTRIndex",
-      "name": "Overall MTTR-Index",
-      "description": ""
-    },
-    {
-      "id": "OverallMTTR",
-      "name": "Overall Mean Time to Resolution",
-      "description": ""
-    },
-    {
-      "id": "AvgOverallMTTR",
-      "name": "Average of Overall Mean Time to Resolution",
-      "description": ""
-    },
-    {
-      "id": "StdDevOverallMTTR",
-      "name": "StdDev of Overall Mean Time to Resolution",
-      "description": ""
-    },
-    {
-      "id": "OverallMTTR",
-      "name": "Overall Mean Time to Resolution",
-      "description": ""
-    },
-    {
-      "id": "MTTR",
-      "name": "Mean Time to Resolution",
-      "description": ""
-    },
-    {
-      "id": "TTR",
-      "name": "Time to Resolution",
-      "description": ""
-    },
-    {
-      "id": "Issues",
-      "name": "Issues/Tickets",
-      "description": ""
-    },
-    {
-      "id": "ResolutionRate",
-      "name": "ResolutionRate",
-      "description": ""
-    },
-    {
-      "id": "ResolutionCapability",
-      "name": "Resolution Capability",
-      "description": ""
-    },
-    {
-      "id": "ResolutionEfficiency",
-      "name": "Resolution Efficiency",
-      "description": ""
-    },
-    {
-      "id": "PullRequestSpread",
-      "name": "Pull Request Spread",
-      "description": ""
-    },
-    {
-      "id": "WIP",
-      "name": "Open Ticket Rate/Work in Progress",
-      "description": ""
-    },
-    {
-      "id": "UnassignedTicketRate",
-      "name": "Unassigned Ticket Rate",
-      "description": ""
-    },
-    {
-      "id": "AssignmentTime",
-      "name": "Assignment Time",
-      "description": ""
-    },
-    {
-      "id": "AvgAssignmentTime",
-      "name": "Average Assignment Time",
-      "description": ""
-    },
-    {
-      "id": "AssigneesCount",
-      "name": "Assignees Count (until close)",
-      "description": ""
-    },
-    {
-      "id": "AvgAssigneesCount",
-      "name": "Average Assignees Count (until close)",
-      "description": ""
-    },
-    {
-      "id": "MaturityIndex",
-      "name": "MI/HI",
+      "id": "TF_B_2",
+      "name": "Untergeordnete Teilfunktion TF_B_2",
       "description": ""
     }
   ],
   "edges": [
-    { "source": "MaturityIndex", "target": "OverallCouplingIndex" },
-    { "source": "MaturityIndex", "target": "OverallMTTRIndex" },
-    { "source": "MaturityIndex", "target": "DevelopmentFocusIndex" },
-    { "source": "OverallCouplingIndex", "target": "AvgCoupling" },
-    { "source": "OverallCouplingIndex", "target": "StdDevCoupling" },
-    { "source": "AvgCoupling", "target": "StdDevCoupling" },
-    { "source": "OverallMTTRIndex", "target": "AvgOverallMTTR" },
-    { "source": "OverallMTTRIndex", "target": "StdDevOverallMTTR" },
-    { "source": "AvgOverallMTTR", "target": "StdDevOverallMTTR" },
-    { "source": "AvgCoupling", "target": "CouplingIndex" },
-    { "source": "StdDevCoupling", "target": "CouplingIndex" },
-    { "source": "AvgOverallMTTR", "target": "OverallMTTR" },
-    { "source": "StdDevOverallMTTR", "target": "OverallMTTR" },
-    { "source": "CouplingIndex", "target": "AvgFilesChangedTogether" },
-    { "source": "CouplingIndex", "target": "StdDevFilesChangedTogether" },
-    { "source": "CouplingIndex", "target": "TechnicalDebtIndex" },
-    { "source": "OverallMTTR", "target": "TechnicalDebtIndex" },
-    { "source": "TechnicalDebtIndex", "target": "AvgTechnicalDebtIndex" },
-    { "source": "AvgFilesChangedTogether", "target": "AddFilesChanged" },
     {
-      "source": "AvgFilesChangedTogether",
-      "target": "StdDevFilesChangedTogether"
-    },
-    { "source": "StdDevFilesChangedTogether", "target": "AddFilesChanged" },
-    { "source": "AddFilesChanged", "target": "ChangesPerFile" },
-    { "source": "ChangesPerFile", "target": "AvgChangesPerFile" },
-    { "source": "ChangesPerFile", "target": "StdDevChangesPerFile" },
-    { "source": "AvgChangesPerFile", "target": "StdDevChangesPerFile" },
-    { "source": "AvgChangesPerFile", "target": "ActiveCode" },
-    { "source": "StdDevChangesPerFile", "target": "ActiveCode" },
-    { "source": "MTTR", "target": "OverallMTTR" },
-    { "source": "TTR", "target": "MTTR" },
-    { "source": "Issues", "target": "TTR" },
-    { "source": "ResolutionRate", "target": "Issues" },
-    { "source": "ResolutionCapability", "target": "Issues" },
-    { "source": "ResolutionEfficiency", "target": "Issues" },
-    { "source": "PullRequestSpread", "target": "Issues" },
-    { "source": "WIP", "target": "Issues" },
-    { "source": "UnassignedTicketRate", "target": "Issues" },
-    { "source": "AssignmentTime", "target": "Issues" },
-    { "source": "AvgAssignmentTime", "target": "AssignmentTime" },
-    { "source": "AssigneesCount", "target": "Issues" },
-    { "source": "AvgAssigneesCount", "target": "AssigneesCount" },
-    { "source": "AvgDeveloperSpread", "target": "DevelopmentFocusIndex" },
-    { "source": "AvgDeveloperSpread", "target": "StdDevDeveloperSpread" },
-    { "source": "StdDevDeveloperSpread", "target": "DevelopmentFocusIndex" },
-    { "source": "IndividualDeveloperSpread", "target": "AvgDeveloperSpread" },
-    {
-      "source": "IndividualDeveloperSpread",
-      "target": "StdDevDeveloperSpread"
+      "source": "Produkt",
+      "target": "BG_A"
     },
     {
-      "source": "RepositoriesWithDeveloperActivity",
-      "target": "IndividualDeveloperSpread"
+      "source": "Produkt",
+      "target": "BG_B"
+    },
+    {
+      "source": "Produkt",
+      "target": "BG_C"
+    },
+    {
+      "source": "BG_A",
+      "target": "BG_A_1"
+    },
+    {
+      "source": "BG_A",
+      "target": "BG_A_2"
+    },
+    {
+      "source": "BG_B",
+      "target": "BG_B_1"
+    },
+    {
+      "source": "BG_C",
+      "target": "BG_C_1"
+    },
+    {
+      "source": "BG_C",
+      "target": "BG_C_2"
+    },
+    {
+      "source": "Gesamtfunktion",
+      "target": "TF_A"
+    },
+    {
+      "source": "Gesamtfunktion",
+      "target": "TF_B"
+    },
+    {
+      "source": "TF_A",
+      "target": "TF_A_1"
+    },
+    {
+      "source": "TF_A",
+      "target": "TF_A_2"
+    },
+    {
+      "source": "TF_A",
+      "target": "TF_A_3"
+    },
+    {
+      "source": "TF_B",
+      "target": "TF_B_1"
+    },
+    {
+      "source": "TF_B",
+      "target": "TF_B_2"
+    },
+    {
+      "source": "TF_A",
+      "target": "TF_A_1"
+    },
+    {
+      "source": "BT_A_1",
+      "target": "TF_A_1"
+    },
+    {
+      "source": "BT_A_1",
+      "target": "TF_A_2"
+    },
+    {
+      "source": "BT_A_2",
+      "target": "TF_A_2"
+    },
+    {
+      "source": "BT_B_1",
+      "target": "TF_A_3"
+    },
+    {
+      "source": "BT_C_1",
+      "target": "TF_A_3"
+    },
+    {
+      "source": "BT_C_1",
+      "target": "TF_B_1"
+    },
+    {
+      "source": "BT_C_2",
+      "target": "TF_B_2"
     }
   ]
 }

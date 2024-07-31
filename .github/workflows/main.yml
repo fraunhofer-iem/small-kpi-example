@@ -13,17 +13,17 @@ jobs:
 
     steps:
       - name: node setup
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: 16.x    
+          node-version: 20.x    
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with: 
           repository: 'fraunhofer-iem/kpi-hierarchy-visualization'
           ref: 'v1.8.0'
           path: 'vis'
           
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with: 
           path: 'domain'
           

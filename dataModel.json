@@ -97,12 +97,11 @@
       "name": "Komponente K1",
       "description": ""
     },
-        {
-          "id": "BG_A",
-          "name": "Baugruppe BG_A",
-          "description": ""
-        }
-      ,
+    {
+      "id": "BG_A",
+      "name": "Baugruppe BG_A",
+      "description": ""
+    },
     {
       "id": "BG_B",
       "name": "Baugruppe BG_B",
@@ -129,24 +128,25 @@
       "description": ""
     },
     {
-          "id": "BT_B_1",
-          "name": "Bauteil BT_B_1",
-          "description": ""
-        },
-        {
-          "id": "BT_C_1",
-          "name": "Bauteil BT_C_1",
-          "description": ""
+      "id": "BT_B_1",
+      "name": "Bauteil BT_B_1",
+      "description": ""
+    },
+    {
+      "id": "BT_C_1",
+      "name": "Bauteil BT_C_1",
+      "description": ""
     },
     {
       "id": "K_3",
       "name": "Komponente K3",
-      "description": ""},
-        {
-          "id": "BT_C_2",
-          "name": "Bauteil BT_C_2",
-          "description": ""
-        },
+      "description": ""
+    },
+    {
+      "id": "BT_C_2",
+      "name": "Bauteil BT_C_2",
+      "description": ""
+    },
     {
       "id": "Gesamtfunktion",
       "name": "Gesamtfunktion",

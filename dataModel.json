@@ -5,74 +5,74 @@
   "layout": {
     "name": "preset",
     "avoidOverlap": true,
-    "center":"Produkt",
+    "center":"BT_B_1",
     "positions": {
       "Produkt": {
         "x": 0,
         "y": 0
       },
       "BG_A": {
-        "x": 200,
+        "x": 300,
         "y": -100
       },
       "BG_B": {
-        "x": 200,
+        "x": 300,
         "y": 0
       },
       "BG_C": {
-        "x": 200,
+        "x": 300,
         "y": 100
       },
       "BT_A_1": {
-        "x": 400,
+        "x": 600,
         "y": -150
       },
       "BT_A_2": {
-        "x": 400,
+        "x": 600,
         "y": -50
       },
       "BT_B_1": {
-        "x": 400,
+        "x": 600,
         "y": 0
       },
       "BT_C_1": {
-        "x": 400,
+        "x": 600,
         "y": 50
       },
       "BT_C_2": {
-        "x": 400,
+        "x": 600,
         "y": 150
       },
       "TF_A_1": {
-        "x": 600,
+        "x": 900,
         "y": -150
       },
       "TF_A_2": {
-        "x": 600,
+        "x": 900,
         "y": -50
       },
       "TF_A_3": {
-        "x": 600,
+        "x": 900,
         "y": 0
       },
       "TF_B_1": {
-        "x": 600,
+        "x": 900,
         "y": 50
       },
       "TF_B_2": {
-        "x": 600,
+        "x": 900,
         "y": 150
       },
       "TF_A": {
-        "x": 7800,
+        "x": 1200,
         "y": -100
       },
       "TF_B": {
-        "x": 800,
+        "x": 1200,
         "y": 100
       },
       "Gesamtfunktion": {
-        "x": 1000,
+        "x": 1500,
         "y": 0
       }
     }
@@ -188,95 +188,157 @@
   "edges": [
     {
       "source": "Produkt",
-      "target": "BG_A"
+      "target": "BG_A",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "Produkt",
-      "target": "BG_B"
+      "target": "BG_B",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "Produkt",
-      "target": "BG_C"
+      "target": "BG_C",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "BG_A",
-      "target": "BT_A_1"
+      "target": "BT_A_1",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "BG_A",
-      "target": "BT_A_2"
+      "target": "BT_A_2",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "BG_B",
-      "target": "BT_B_1"
+      "target": "BT_B_1",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "BG_C",
-      "target": "BT_C_1"
+      "target": "BT_C_1",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "BG_C",
-      "target": "BT_C_2"
+      "target": "BT_C_2",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "Gesamtfunktion",
-      "target": "TF_A"
+      "target": "TF_A",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "Gesamtfunktion",
-      "target": "TF_B"
+      "target": "TF_B",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "TF_A",
-      "target": "TF_A_1"
+      "target": "TF_A_1",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "TF_A",
-      "target": "TF_A_2"
+      "target": "TF_A_2",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "TF_A",
-      "target": "TF_A_3"
+      "target": "TF_A_3",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "TF_B",
-      "target": "TF_B_1"
+      "target": "TF_B_1",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "TF_B",
-      "target": "TF_B_2"
+      "target": "TF_B_2",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "TF_A",
-      "target": "TF_A_1"
+      "target": "TF_A_1",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dashed"
     },
     {
       "source": "BT_A_1",
-      "target": "TF_A_1"
+      "target": "TF_A_1",
+      "directed": false,
+      "straight": true
     },
     {
       "source": "BT_A_1",
-      "target": "TF_A_2"
+      "target": "TF_A_2",
+      "directed": false,
+      "straight": true
     },
     {
       "source": "BT_A_2",
-      "target": "TF_A_2"
+      "target": "TF_A_2",
+      "directed": false,
+      "straight": true
     },
     {
       "source": "BT_B_1",
-      "target": "TF_A_3"
+      "target": "TF_A_3",
+      "directed": false,
+      "straight": true
     },
     {
       "source": "BT_C_1",
-      "target": "TF_A_3"
+      "target": "TF_A_3",
+      "directed": false,
+      "straight": true
     },
     {
       "source": "BT_C_1",
-      "target": "TF_B_1"
+      "target": "TF_B_1",
+      "directed": false,
+      "straight": true
     },
     {
       "source": "BT_C_2",
-      "target": "TF_B_2"
+      "target": "TF_B_2",
+      "directed": false,
+      "straight": true
     }
   ]
 }

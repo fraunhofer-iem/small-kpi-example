@@ -3,8 +3,79 @@
   "title": "Anwendungsbeispiel Produktarchitektur",
   "center": "Produkt",
   "layout": {
-    "name": "dagre",
-    "avoidOverlap": true
+    "name": "preset",
+    "avoidOverlap": true,
+    "center":"Produkt",
+    "positions": {
+      "Produkt": {
+        "x": 0,
+        "y": 0
+      },
+      "BG_A": {
+        "x": 100,
+        "y": -100
+      },
+      "BG_B": {
+        "x": 100,
+        "y": 0
+      },
+      "BG_C": {
+        "x": 100,
+        "y": 100
+      },
+      "BT_A_1": {
+        "x": 200,
+        "y": -150
+      },
+      "BT_A_2": {
+        "x": 200,
+        "y": -50
+      },
+      "BT_B_1": {
+        "x": 200,
+        "y": 0
+      },
+      "BT_C_1": {
+        "x": 200,
+        "y": 50
+      },
+      "BT_C_2": {
+        "x": 200,
+        "y": 150
+      },
+      "TF_A_1": {
+        "x": 300,
+        "y": -150
+      },
+      "TF_A_2": {
+        "x": 300,
+        "y": -50
+      },
+      "TF_A_3": {
+        "x": 300,
+        "y": 0
+      },
+      "TF_B_1": {
+        "x": 300,
+        "y": 50
+      },
+      "TF_B_2": {
+        "x": 300,
+        "y": 150
+      },
+      "TF_A": {
+        "x": 400,
+        "y": -100
+      },
+      "TF__B": {
+        "x": 400,
+        "y": 100
+      },
+      "Gesamtfunktion": {
+        "x": 500,
+        "y": 0
+      }
+    }
   },
   "nodes": [
     {
@@ -14,6 +85,7 @@
     },
     {
       "id": "K_1",
+      "name": "Komponente K1",
       "children": [
         {
           "id": "BG_A",
@@ -44,6 +116,7 @@
     },
     {
       "id": "K_2",
+      "name": "Komponente K_2",
       "children": [
         {
           "id": "BT_B_1",
@@ -59,6 +132,7 @@
     },
     {
       "id": "K_3",
+      "name": "Komponente K3",
       "children": [
         {
           "id": "BT_C_2",

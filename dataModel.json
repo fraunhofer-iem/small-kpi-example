@@ -86,6 +86,7 @@
     {
       "id": "K_1",
       "name": "Komponente K1",
+          "description": "",
       "children": [
         {
           "id": "BG_A",
@@ -93,7 +94,7 @@
           "description": ""
         }
       ],
-      "hidden": false
+      "hidden": true
     },
     {
       "id": "BG_B",
@@ -118,6 +119,7 @@
     {
       "id": "K_2",
       "name": "Komponente K_2",
+      "description": "",
       "children": [
         {
           "id": "BT_B_1",
@@ -135,6 +137,7 @@
     {
       "id": "K_3",
       "name": "Komponente K3",
+      "description": "",
       "children": [
         {
           "id": "BT_C_2",

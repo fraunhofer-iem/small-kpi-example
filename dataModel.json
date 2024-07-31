@@ -15,6 +15,9 @@
         "x": 300,
         "y": -100
       },
+      "K_1": {
+        "x":300, "y":-50
+      },
       "BG_B": {
         "x": 300,
         "y": 0
@@ -35,6 +38,9 @@
         "x": 600,
         "y": 0
       },
+      "K_2": {
+        "x":600, "y":25
+      },
       "BT_C_1": {
         "x": 600,
         "y": 50
@@ -42,6 +48,9 @@
       "BT_C_2": {
         "x": 600,
         "y": 150
+      },
+      "K_1": {
+        "x":600, "y":200
       },
       "TF_A_1": {
         "x": 900,
@@ -86,16 +95,14 @@
     {
       "id": "K_1",
       "name": "Komponente K1",
-          "description": "",
-      "children": [
+      "description": ""
+    },
         {
           "id": "BG_A",
           "name": "Baugruppe BG_A",
           "description": ""
         }
-      ],
-      "hidden": true
-    },
+      ,
     {
       "id": "BG_B",
       "name": "Baugruppe BG_B",
@@ -119,9 +126,9 @@
     {
       "id": "K_2",
       "name": "Komponente K_2",
-      "description": "",
-      "children": [
-        {
+      "description": ""
+    },
+    {
           "id": "BT_B_1",
           "name": "Bauteil BT_B_1",
           "description": ""
@@ -130,23 +137,16 @@
           "id": "BT_C_1",
           "name": "Bauteil BT_C_1",
           "description": ""
-        }
-      ],
-      "hidden": false
     },
     {
       "id": "K_3",
       "name": "Komponente K3",
-      "description": "",
-      "children": [
+      "description": ""},
         {
           "id": "BT_C_2",
           "name": "Bauteil BT_C_2",
           "description": ""
-        }
-      ],
-      "hidden": false
-    },
+        },
     {
       "id": "Gesamtfunktion",
       "name": "Gesamtfunktion",
@@ -342,6 +342,34 @@
       "target": "TF_B_2",
       "directed": false,
       "straight": true
+    },
+    {
+      "source": "K_1",
+      "target": "BG_A",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dotted"
+    },
+    {
+      "source": "K_2",
+      "target": "BT_B_1",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dotted"
+    },
+    {
+      "source": "K_2",
+      "target": "BT_C_1",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dotted"
+    },
+    {
+      "source": "K_3",
+      "target": "BT_C_2",
+      "directed": false,
+      "straight": true,
+      "lineStyle": "dotted"
     }
   ]
 }

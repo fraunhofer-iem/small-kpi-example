@@ -123,23 +123,23 @@
     },
     {
       "source": "BG_A",
-      "target": "BG_A_1"
+      "target": "BT_A_1"
     },
     {
       "source": "BG_A",
-      "target": "BG_A_2"
+      "target": "BT_A_2"
     },
     {
       "source": "BG_B",
-      "target": "BG_B_1"
+      "target": "BT_B_1"
     },
     {
       "source": "BG_C",
-      "target": "BG_C_1"
+      "target": "BT_C_1"
     },
     {
       "source": "BG_C",
-      "target": "BG_C_2"
+      "target": "BT_C_2"
     },
     {
       "source": "Gesamtfunktion",

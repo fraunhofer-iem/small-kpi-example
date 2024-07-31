@@ -4,6 +4,7 @@
   "center": "Produkt",
   "layout": {
     "name": "preset",
+    "avoidOverlap": true,
     "center":"Produkt",
     "positions": {
       "Produkt": {
@@ -84,14 +85,16 @@
     },
     {
       "id": "K_1",
+      "name": "Komponente K1",
       "children": [
         {
           "id": "BG_A",
           "name": "Baugruppe BG_A",
           "description": ""
         }
-      ]
-    }    ,
+      ],
+      "hidden": false
+    },
     {
       "id": "BG_B",
       "name": "Baugruppe BG_B",
@@ -114,6 +117,7 @@
     },
     {
       "id": "K_2",
+      "name": "Komponente K_2",
       "children": [
         {
           "id": "BT_B_1",
@@ -125,17 +129,20 @@
           "name": "Bauteil BT_C_1",
           "description": ""
         }
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": "K_3",
+      "name": "Komponente K3",
       "children": [
         {
           "id": "BT_C_2",
           "name": "Bauteil BT_C_2",
           "description": ""
         }
-      ]
+      ],
+      "hidden": false
     },
     {
       "id": "Gesamtfunktion",

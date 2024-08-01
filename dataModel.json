@@ -115,7 +115,9 @@
       ],
       "hidden": false,
       "theme": {
-        "color": "grey"
+        "dark": {
+          "color": "#4e4a49"
+        }
       }
     },
     {

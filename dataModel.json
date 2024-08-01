@@ -113,7 +113,10 @@
           "hinge": false
         }
       ],
-      "hidden": false
+      "hidden": false,
+      "theme": {
+        "color": "grey"
+      }
     },
     {
       "id": "BG_B",

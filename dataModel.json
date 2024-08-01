@@ -3,9 +3,13 @@
   "title": "Anwendungsbeispiel Produktarchitektur",
   "center": "Produkt",
   "layout": {
-    "name": "concentric",
+    "name": "preset",
     "avoidOverlap": true,
     "positions": {
+      "BT_B_1": {
+        "x": 100,
+        "y": 0
+      },
       "Produkt": {
         "x": 500,
         "y": 0
@@ -33,10 +37,6 @@
       "BT_A_2": {
         "x": 100,
         "y": -150
-      },
-      "BT_B_1": {
-        "x": 100,
-        "y": 0
       },
       "K_2": {
         "x": 100, 

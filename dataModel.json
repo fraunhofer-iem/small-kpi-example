@@ -5,86 +5,86 @@
   "layout": {
     "name": "preset",
     "avoidOverlap": true,
-    "center":"BT_B_1",
+    "center":"TF_A_3",
     "positions": {
       "Produkt": {
-        "x": 1150,
+        "x": 500,
         "y": 0
       },
       "BG_A": {
-        "x": 900,
+        "x": 300,
         "y": -150
       },
       "K_1": {
-        "x":900, 
+        "x":300, 
         "y":-225
       },
       "BG_B": {
-        "x": 900,
+        "x": 300,
         "y": 0
       },
       "BG_C": {
-        "x": 900,
+        "x": 300,
         "y": 150
       },
       "BT_A_1": {
-        "x": 750,
+        "x": 100,
         "y": -300
       },
       "BT_A_2": {
-        "x": 750,
+        "x": 100,
         "y": -150
       },
       "BT_B_1": {
-        "x": 750,
+        "x": 100,
         "y": 0
       },
       "K_2": {
-        "x": 750, 
+        "x": 100, 
         "y": 75
       },
       "BT_C_1": {
-        "x": 750,
+        "x": 100,
         "y": 150
       },
       "BT_C_2": {
-        "x": 750,
+        "x": 100,
         "y": 300
       },
       "K_3": {
-        "x": 750, 
+        "x": 100, 
         "y": 225
       },
       "TF_A_1": {
-        "x": 500,
+        "x": -100,
         "y": -300
       },
       "TF_A_2": {
-        "x": 500,
+        "x": -100,
         "y": -150
       },
       "TF_A_3": {
-        "x": 500,
+        "x": -100,
         "y": 0
       },
       "TF_B_1": {
-        "x": 500,
+        "x": -100,
         "y": 150
       },
       "TF_B_2": {
-        "x": 500,
+        "x": -100,
         "y": 300
       },
       "TF_A": {
-        "x": 250,
+        "x": -300,
         "y": -150
       },
       "TF_B": {
-        "x": 250,
+        "x": -300,
         "y": 150
       },
       "Gesamtfunktion": {
-        "x": 0,
+        "x": 500,
         "y": 0
       }
     }
@@ -214,35 +214,35 @@
     },
     {
       "id": "TF_A_1",
-      "name": "Untergeordnete Teilfunktion TF_A_1",
+      "name": "Teilfunktion TF_A_1",
       "description": "",
       "hidden": false,
       "hinge": false
     },
     {
       "id": "TF_A_2",
-      "name": "Untergeordnete Teilfunktion TF_A_2",
+      "name": "Teilfunktion TF_A_2",
       "description": "",
       "hidden": false,
       "hinge": false
     },
     {
       "id": "TF_A_3",
-      "name": "Untergeordnete Teilfunktion TF_A_3",
+      "name": "Teilfunktion TF_A_3",
       "description": "",
       "hidden": false,
       "hinge": false
     },
     {
       "id": "TF_B_1",
-      "name": "Untergeordnete Teilfunktion TF_B_1",
+      "name": "Teilfunktion TF_B_1",
       "description": "",
       "hidden": false,
       "hinge": false
     },
     {
       "id": "TF_B_2",
-      "name": "Untergeordnete Teilfunktion TF_B_2",
+      "name": "Teilfunktion TF_B_2",
       "description": "",
       "hidden": false,
       "hinge": false

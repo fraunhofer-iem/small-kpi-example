@@ -3,7 +3,7 @@
   "title": "Anwendungsbeispiel Produktarchitektur",
   "center": "Produkt",
   "layout": {
-    "name": "preset",
+    "name": "concentric",
     "avoidOverlap": true,
     "positions": {
       "Produkt": {
@@ -113,12 +113,7 @@
           "hinge": false
         }
       ],
-      "hidden": false,
-      "theme": {
-        "dark": {
-          "color": "#4e4a49"
-        }
-      }
+      "hidden": false
     },
     {
       "id": "BG_B",

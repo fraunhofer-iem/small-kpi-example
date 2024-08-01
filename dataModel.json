@@ -8,80 +8,83 @@
     "center":"BT_B_1",
     "positions": {
       "Produkt": {
-        "x": 0,
+        "x": 1150,
         "y": 0
       },
       "BG_A": {
-        "x": 300,
-        "y": -100
+        "x": 900,
+        "y": -150
       },
       "K_1": {
-        "x":300, "y":-50
+        "x":900, 
+        "y":-225
       },
       "BG_B": {
-        "x": 300,
+        "x": 900,
         "y": 0
       },
       "BG_C": {
-        "x": 300,
-        "y": 100
+        "x": 900,
+        "y": 150
       },
       "BT_A_1": {
-        "x": 600,
-        "y": -150
+        "x": 750,
+        "y": -300
       },
       "BT_A_2": {
-        "x": 600,
-        "y": -50
+        "x": 750,
+        "y": -150
       },
       "BT_B_1": {
-        "x": 600,
+        "x": 750,
         "y": 0
       },
       "K_2": {
-        "x":600, "y":25
+        "x": 750, 
+        "y": 75
       },
       "BT_C_1": {
-        "x": 600,
-        "y": 50
-      },
-      "BT_C_2": {
-        "x": 600,
+        "x": 750,
         "y": 150
       },
+      "BT_C_2": {
+        "x": 750,
+        "y": 300
+      },
       "K_3": {
-        "x":600, "y":200
+        "x": 750, 
+        "y": 225
       },
       "TF_A_1": {
-        "x": 900,
-        "y": -150
+        "x": 500,
+        "y": -300
       },
       "TF_A_2": {
-        "x": 900,
-        "y": -50
+        "x": 500,
+        "y": -150
       },
       "TF_A_3": {
-        "x": 900,
+        "x": 500,
         "y": 0
       },
       "TF_B_1": {
-        "x": 900,
-        "y": 50
-      },
-      "TF_B_2": {
-        "x": 900,
+        "x": 500,
         "y": 150
       },
+      "TF_B_2": {
+        "x": 500,
+        "y": 300
+      },
       "TF_A": {
-        "x": 1200,
-        "y": -100
+        "x": 250,
+        "y": -150
       },
       "TF_B": {
-        "x": 1200,
-        "y": 100
+        "x": 250,
+        "y": 150
       },
       "Gesamtfunktion": {
-        "x": 1500,
+        "x": 0,
         "y": 0
       }
     }
@@ -94,19 +97,24 @@
       "hidden": false,
       "hinge": false
     },
-    {
-      "id": "K_1",
-      "name": "Komponente K1",
-      "description": "",
-      "hidden": false,
-      "hinge": false
-    },
-    {
-      "id": "BG_A",
-      "name": "Baugruppe BG_A",
-      "description": "",
-      "hidden": false,
-      "hinge": false
+    {"id": "K_1_Group",
+      "children": [
+        {
+          "id": "BG_A",
+          "name": "Baugruppe BG_A",
+          "description": "",
+          "hidden": false,
+          "hinge": false
+        },
+        {
+          "id": "K_1",
+          "name": "Komponente K1",
+          "description": "",
+          "hidden": false,
+          "hinge": false
+        }
+      ],
+      "hidden": false
     },
     {
       "id": "BG_B",
@@ -137,39 +145,51 @@
       "hinge": false
     },
     {
-      "id": "K_2",
-      "name": "Komponente K_2",
-      "description": "",
-      "hidden": false,
-      "hinge": false
+      "id": "K_2_Group",
+      "children": [
+        {
+          "id": "K_2",
+          "name": "Komponente K_2",
+          "description": "",
+          "hidden": false,
+          "hinge": false
+        },
+        {
+          "id": "BT_B_1",
+          "name": "Bauteil BT_B_1",
+          "description": "",
+          "hidden": false,
+          "hinge": false
+        },
+        {
+          "id": "BT_C_1",
+          "name": "Bauteil BT_C_1",
+          "description": "",
+          "hidden": false,
+          "hinge": false
+        }
+      ],
+      "hidden": false
     },
     {
-      "id": "BT_B_1",
-      "name": "Bauteil BT_B_1",
-      "description": "",
-      "hidden": false,
-      "hinge": false
-    },
-    {
-      "id": "BT_C_1",
-      "name": "Bauteil BT_C_1",
-      "description": "",
-      "hidden": false,
-      "hinge": false
-    },
-    {
-      "id": "K_3",
-      "name": "Komponente K3",
-      "description": "",
-      "hidden": false,
-      "hinge": false
-    },
-    {
-      "id": "BT_C_2",
-      "name": "Bauteil BT_C_2",
-      "description": "",
-      "hidden": false,
-      "hinge": false
+      "id": "K_3_Group",
+      "children": [
+        {
+          "id": "K_3",
+          "name": "Komponente K3",
+          "description": "",
+          "hidden": false,
+          "hinge": false
+        },
+        {
+          "id": "BT_C_2",
+          "name": "Bauteil BT_C_2",
+          "description": "",
+          "hidden": false,
+          "hinge": false
+        }
+      ],
+      "hidden": false
     },
     {
       "id": "Gesamtfunktion",

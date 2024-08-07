@@ -1,12 +1,12 @@
-#Bauteil BT_A_1
+# Bauteil BT_A_1
 Dieses Bauteil ist ein Bestandteil der [Baugruppe BG_A](BG_A.md) und ist an der Erfüllung von [Teilfunktion TF_A_1](TF_A_1.md) und [Teilfunktion TF_A_2](TF_A_2.md) beteiligt.
 
-##Untergeordnete Elemente
+## Untergeordnete Elemente
 Diesem Bauteil sind keine Elemente untergeordnet.
 
-##Übergeordnete Elemente
+## Übergeordnete Elemente
 [Baugruppe BG_A](BG_A.md): übergeordnete Baugruppe
 
-##Verknüpfte Elemente
+## Verknüpfte Elemente
 [Teilfunktion TF_A_1](TF_A_1.md): zugeordnete Teilfunktion
 [Teilfunktion TF_A_2](TF_A_2.md): zugeordnete Teilfunktion

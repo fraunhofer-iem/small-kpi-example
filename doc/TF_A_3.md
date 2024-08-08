@@ -2,7 +2,7 @@
 Diese untergeordnete Teilfunktion wird vom [Produkt](Produkt.md) bereitgestellt und ist Teil der [Teilfunktion TF_A](TF_A.md).
 
 ## Untergeordnete Elemente
-Dieser Funktion sind keine Elementer untergeordnet.
+Dieser Funktion sind keine Elemente untergeordnet.
 
 ## Übergeordnete Elemente
 [Teilfunktion TF_A](TF_A.md): übergeordnete Funktion

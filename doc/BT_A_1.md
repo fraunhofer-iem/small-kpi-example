@@ -5,8 +5,8 @@ Dieses Bauteil ist ein Bestandteil der [Baugruppe BG_A](BG_A.md) und ist an der 
 Diesem Bauteil sind keine Elemente untergeordnet.
 
 ## Übergeordnete Elemente
-[Baugruppe BG_A](BG_A.md): übergeordnete Baugruppe
+[Baugruppe BG_A](BG_A.md): übergeordnetes Element
 
 ## Verknüpfte Elemente
-[Teilfunktion TF_A_1](TF_A_1.md): zugeordnete Teilfunktion
-[Teilfunktion TF_A_2](TF_A_2.md): zugeordnete Teilfunktion
+[Teilfunktion TF_A_1](TF_A_1.md): zugeordnetes Element
+[Teilfunktion TF_A_2](TF_A_2.md): zugeordnetes Element

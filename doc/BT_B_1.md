@@ -8,5 +8,5 @@ Diesem Bauteil sind keine Elemente untergeordnet.
 [Baugruppe BG_B](BG_B.md): übergeordnetes Element
 
 ## Verknüpfte Elemente
-[Teilfunktion TF_A_3](TF_A_3.md): zugeordnetes Element
+[Teilfunktion TF_A_3](TF_A_3.md): zugeordnetes Element  
 [Komponente K_2](K_2.md): Teil dieses Elements

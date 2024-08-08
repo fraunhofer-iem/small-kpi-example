@@ -8,5 +8,5 @@ Dieser Funktion sind keine Elemente untergeordnet.
 [Teilfunktion TF_A](TF_A.md): untergeordnetes Element
 
 ## Verknüpfte Elemente
-[Bauteil BT_A_1](BT_A_1.md): zugeordnetes Element
+[Bauteil BT_A_1](BT_A_1.md): zugeordnetes Element  
 [Bauteil BT_A_2](BT_A_2.md): zugeordnetes Element
